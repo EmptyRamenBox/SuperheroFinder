@@ -1,7 +1,6 @@
 //<template>
-  <div class="bg-blue-600 min-h-screen">
+  <div class="bg-blue-600 min-h-screen pb-20">
     <NavBar class="navi shadow-2xl" />
-
     <router-view class="text-teal-200 text-lg" />
   </div>
 </template>

@@ -36,7 +36,12 @@
       <div class="w-full flex flex-wrap mt-12 justify-center items-center">
         <!-- Render Depending on sizes sm: md: lg: xl: -->
         <!-- eslint-disable-next-line prettier/prettier -->
-        <Card class="sm:w-1/2 lg:w-1/3 xl:w-1/4" v-for="hero in heroes" :key="hero.id" />
+        <Card
+          class="sm:w-1/2 lg:w-1/3 xl:w-1/4"
+          v-for="hero in heroes"
+          :key="hero.id"
+          :hero="hero"
+        />
       </div>
     </div>
   </div>
