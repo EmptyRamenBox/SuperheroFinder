@@ -1,9 +1,9 @@
 <template>
-	<div>Hero Page</div>
+  <div>Hero Page</div>
 </template>
 
 <script>
 export default {
-	name: 'HeroDetails'
+  name: "HeroDetails"
 };
 </script>

@@ -18,6 +18,8 @@
         <span class="font-hairline">Showing results for</span>
         "{{ searchItem }}"
       </h1>
+      <!-- If a search result is not found -->
+      <!-- eslint-disable-next-line prettier/prettier -->
       <div class="items-center justify-center mt-8 flex flex-wrap w-full" v-if="notFound">
         <div class="border-2 rounded-lg p-6 border-black bg-white text-black">
           <h1 class="font-bold text-2xl">Search Not Found</h1>
@@ -27,12 +29,13 @@
           <img :src="notFoundImg" alt="Not Found Placeholder" />
         </div>
       </div>
+      <!--  -->
+      <!-- If a search result is found -->
       <!-- eslint-disable-next-line prettier/prettier -->
-      <div
-        v-if="searchItem && heroes.length > 0"
-        class="w-full flex flex-wrap mt-12 justify-center items-center"
-      >
+      <!-- v-if="searchItem && heroes.length > 0" -->
+      <div class="w-full flex flex-wrap mt-12 justify-center items-center">
         <!-- Render Depending on sizes sm: md: lg: xl: -->
+        <!-- eslint-disable-next-line prettier/prettier -->
         <Card class="sm:w-1/2 lg:w-1/3 xl:w-1/4" v-for="hero in heroes" :key="hero.id" />
       </div>
     </div>
@@ -41,7 +44,6 @@
 
 <script>
 import PulseLoader from "vue-spinner/src/PulseLoader.vue";
-
 import notFoundImg from "@/assets/notFound.png";
 import Card from "@/components/Card.vue";
 

@@ -11,15 +11,18 @@
           />
         </div>
         <div class="relative px-4 -mt-16">
+          <!-- eslint-disable-next-line prettier/prettier -->
           <div class="bg-gray-200 p-6 rounded-lg shadow-lg border-2 rounded-lg border-black">
-            <h4
-              &#x60;class="mt-1 font-hairline text-3xl text-indigo-800 leading-tight truncate"
-            >Hero Name</h4>
-            <div class="mt-1">Description</div>
+            <!-- eslint-disable-next-line prettier/prettier -->
+            <h4 class="mt-1 font-hairline text-3xl text-indigo-800 leading-tight truncate">Hero Name</h4>
+            <div class="mt-1 text-indigo-800">Description</div>
             <div class="flex items-baseline mt-4">
               <span
                 class="inline-block bg-orange-400 text-teal-800 text-xs px-2 rounded-full uppercase font-semibold tracking-wide"
-              >Something</span>
+              >
+                <!-- eslint-disable-next-line prettier/prettier -->
+                Something
+              </span>
             </div>
           </div>
         </div>
