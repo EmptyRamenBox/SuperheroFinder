@@ -1,4 +1,5 @@
 <template>
+  <!-- eslint-disable-next-line prettier/prettier -->
   <div class="p-2 flex flex-wrap transform ease-in-out duration-300 hover:scale-110">
     <!-- <div class="bg-yellow-400 border-2 rounded-lg border-black text-black"> -->
     <router-link :to="`/hero/${hero.id}`" class="w-full">
@@ -87,3 +88,4 @@ export default {
   }
 };
 </script>
+
